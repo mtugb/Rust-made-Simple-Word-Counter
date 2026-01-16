@@ -1,5 +1,5 @@
 # GUIワードカウントアプリ
-WEBレンダリングに頼らないためサクサク動くワードカウントアプリです。
+WEBレンダリングに頼らないためサクサク動くワードカウントアプリです。フレームワークに[Iced](https://iced.rs/)を使用しました。
 
 ## 稼働可能環境
 Windowsでのみ動作します。
@@ -10,11 +10,12 @@ Windowsでのみ動作します。
 ## インストール / 実行方法
 
 ### 1. 実行ファイルをダウンロードする場合（推奨）
-[Releases](https://github.com/あなたのユーザー名/rust_wordcounter/releases) ページから最新の `rust_wordcounter.exe` をダウンロードしてください。
+[Releases](https://github.com/mtugb/Rust-made-Simple-Word-Counter/releases/tag/v1.0.0) ページから `rust_wordcounter.exe` をダウンロードしてください。
 ダウンロード後、そのまま実行して使用できます。
 
 ### 2. ソースコードからビルドする場合
-Windows環境でビルドするには、Rustツールチェーンに加えて Windows SDK が必要です。
+```$ cargo build --release```
+を実行します。
 
 ## Q & A
 - 英語だけ？\
